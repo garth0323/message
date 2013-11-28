@@ -25,7 +25,7 @@ gem 'forem', :github => "radar/forem", :branch => "rails4"
 gem 'friendly_id', github: "FriendlyId/friendly_id"
 gem 'cancan', git: "https://github.com/nukturnal/cancan.git"
 gem 'will_paginate', '3.0.4'
-gem 'forem-bootstrap', :github => "radar/forem-bootstrap"
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
