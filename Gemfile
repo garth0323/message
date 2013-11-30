@@ -19,7 +19,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3', path: "/forums"
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3', path: 'forem_path'
 gem 'devise', '~> 3.1.1'
 gem 'forem', :github => "radar/forem", :branch => "rails4"
 gem 'friendly_id', github: "FriendlyId/friendly_id"
