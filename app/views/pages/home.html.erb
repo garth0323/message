@@ -21,7 +21,7 @@
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>Ask Questions</h2>
-      <p>Find the answers to your mental health questions in a forum moderated by a professional.</p>
+      <p>Find the answers to your questions and maybe someone you have something in common with.</p>
       <% if user_signed_in? %>
           <%= link_to "View Forums", forem_path, class: "btn btn-primary" %>
      <% else %>
@@ -31,7 +31,7 @@
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>Safe Environment</h2>
-      <p>Interact with people that have had similar experiences and professionals in a judgment free forum.</p>
+      <p>Are you kidding? This is a forum. Prepare for anonymous people to ridicule you.</p>
       <% if user_signed_in? %>
           <%= link_to "View Forums", forem_path, class: "btn btn-primary" %>
      <% else %>
@@ -40,13 +40,9 @@
     </div>
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
-      <h2>What' Talked About?</h2>
-      <p>Forums exist for most anything you want: ADHD, depression, anxiety, eating disorders, and more...</p>
-      <% if user_signed_in? %>
-          <%= link_to "View Forums", forem_path, class: "btn btn-primary" %>
-     <% else %>
-         <%= link_to "Log in", main_app.new_user_session_path, class: "btn btn-primary" %>
-     <% end %>
+      <h2>Help Out</h2>
+      <p>Are you a pro? Help out and moderate the forums.</p>
+      <%= link_to "More...", professionals_path, class: "btn btn-primary" %>     
     </div>
   
   </div><!-- /.row -->
@@ -58,24 +54,24 @@
 
   <div class="featurette featurette-well-noisy">
     <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
-    <h2 class="featurette-heading">Responsive Design. <span class="text-muted">It'll blow your mind.</span></h2>
-    <p class="lead">In simple terms, a responsive web design figures out what resolution of device it's being served on. Flexible grids then size correctly to fit the screen.</p>
+    <h2 class="featurette-heading">What is a Forum? <span class="text-muted">It'll blow your mind.</span></h2>
+    <p class="lead">In simple terms, A place to ask and anser questions that have probably been asked and answered 20 timees before somewhere else.</p>
   </div>
 
   <hr class="featurette-divider">
 
   <div class="featurette">
     <img class="featurette-image img-circle pull-left" src="http://placehold.it/512">
-    <h2 class="featurette-heading">Smaller Footprint. <span class="text-muted">Lightweight.</span></h2>
-    <p class="lead">The new Bootstrap 3 promises to be a smaller build. The separate Bootstrap base and responsive.css files have now been merged into one. There is no more fixed grid, only fluid.</p>
+    <h2 class="featurette-heading">About Garth. <span class="text-muted">Really?</span></h2>
+    <p class="lead">What do you want to know? Get on the forum there is nothing exciting here.</p>
   </div>
 
   <hr class="featurette-divider">
 
   <div class="featurette">
     <img class="featurette-image img-circle pull-right" src="http://placehold.it/512">
-    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Flatness.</span></h2>
-    <p class="lead">A big design trend for 2013 is "flat" design. Gone are the days of excessive gradients and shadows. Designers are producing cleaner flat designs, and Bootstrap 3 takes advantage of this minimalist trend.</p>
+    <h2 class="featurette-heading">And lastly, <span class="text-muted">It looks good.</span></h2>
+    <p class="lead">I am really impresed with myself, this homepage looks nice.</p>
   </div>
 
   <hr class="featurette-divider">
@@ -85,8 +81,8 @@
 
   <!-- FOOTER -->
   <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>This Bootstrap layout is compliments of Bootply. · <a href="http://www.bootply.com/62603">Edit on Bootply.com</a></p>
+    <p class="pull-left"><a href="#">Back to top</a></p>
+    <p class="pull-right"> &nbsp; ©Copyright 2013 Affinitap</p>
   </footer>
 
 </div><!-- /.container -->

@@ -7,25 +7,17 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="http://localhost:3000/">Affinitap</a>
+    <a class="navbar-brand" href="http://affintap.herokuapp.com">Affinitap</a>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav navbar-right">
       
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
       
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "About", main_app.about_path %></li>
+      <li><%= link_to "Professionals", main_app.professionals_path %></li>
     
-      
-  
+        
     <% if user_signed_in? %>
       <li><%= link_to current_user.email, main_app.edit_user_registration_path %></li>
       <li><%= link_to "Sign out", main_app.destroy_user_session_path, :method => :delete %></li>
